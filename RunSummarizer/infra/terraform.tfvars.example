@@ -1,0 +1,26 @@
+aws_region   = "us-east-1"
+project_name = "runsummarizer"
+environment  = "dev"
+
+# Cloudflare subdomain (SPA + API on one HTTPS origin). Enables ACM + HTTPS listener.
+# Leave unset for HTTP-only ALB DNS (Strava/Clerk demos are unreliable without HTTPS).
+domain_name = "app.yourdomain.com"
+
+# Must match the SPA origin exactly (scheme + host, no trailing slash).
+clerk_authorized_parties = "https://app.yourdomain.com"
+
+# Frontend image build: set VITE_CLERK_PUBLISHABLE_KEY in frontend/.env
+# (or export it). deploy.sh reads it there — not a Terraform variable.
+
+# AWS Academy / Vocareum: reuse LabRole (iam:CreateRole is denied).
+# ecs_execution_role_name = "LabRole"
+# ecs_task_role_name      = "LabRole"
+
+# Optional overrides:
+# vpc_cidr            = "10.0.0.0/16"
+# db_name              = "runsummarizer"
+# db_username          = "app"
+# db_instance_class    = "db.t4g.micro"
+# db_allocated_storage = 20
+# db_engine_version    = "18"
+# ecs_image_tag        = "latest"

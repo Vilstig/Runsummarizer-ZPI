@@ -1,0 +1,62 @@
+target-version = "py313"
+line-length = 100
+
+extend-exclude = [
+    "migrations/versions",  # alembic autogenerates these
+]
+
+[format]
+docstring-code-format = true
+
+[lint]
+# On top of ruff's default rule set.
+extend-select = [
+    "S",      # bandit
+    "T20",    # print
+    "INP",    # missing __init__.py
+    "PTH",    # pathlib over os.path
+    "ERA",    # commented-out code
+    "ARG",    # unused arguments
+    "N",      # pep8-naming
+    "TID",    # tidy imports
+    "LOG",    # logging misuse
+    "G",      # logging format strings
+    "RET",    # return simplification
+    "SIM",    # simplification
+    "C4",     # comprehensions
+    "PIE",    # misc lints
+]
+
+[lint.flake8-bugbear]
+# FastAPI evaluates these in the default argument on purpose.
+extend-immutable-calls = [
+    "fastapi.Depends",
+    "fastapi.Query",
+    "fastapi.Path",
+    "fastapi.Header",
+    "fastapi.Body",
+    "fastapi.Form",
+    "fastapi.File",
+    "fastapi.Cookie",
+    "fastapi.Security",
+]
+
+[lint.flake8-tidy-imports]
+ban-relative-imports = "all"
+
+[lint.per-file-ignores]
+# Wire-format field names mirror the normalized activity schema.
+"app/api/schemas/activities.py" = ["N815"]
+"app/api/schemas/summaries.py" = ["N815"]
+"scripts/**" = ["T20", "INP001"]
+# sklearn feature/matrix names (X, X_train, …)
+"scripts/ml/**" = ["N806"]
+"migrations/env.py" = ["INP001", "E402"]
+"tests/**" = [
+    "S101",  # pytest asserts
+    "S105",  # fixture credentials
+    "S106",
+    "T20",
+    "ARG",   # stub/mock signatures
+    "INP001",
+]

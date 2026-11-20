@@ -1,0 +1,1 @@
+"""RunSummarizer application package."""

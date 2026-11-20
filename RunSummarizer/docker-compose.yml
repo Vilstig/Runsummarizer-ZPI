@@ -1,0 +1,26 @@
+services:
+  api:
+    build: { context: ./backend, dockerfile: Dockerfile, target: api }
+    restart: unless-stopped
+    ports: ["8000:8000"]
+
+  worker:
+    build: { context: ./backend, dockerfile: Dockerfile, target: worker }
+    restart: unless-stopped
+
+  migration:
+    build: { context: ./backend, dockerfile: Dockerfile, target: migration }
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: runner
+      args:
+        # Prefer host env; Compose also loads a root .env if present.
+        VITE_CLERK_PUBLISHABLE_KEY: ${VITE_CLERK_PUBLISHABLE_KEY:-}
+        # Always point at the Compose API port. Do not inherit an empty
+        # VITE_API_BASE_URL from frontend/.env (that means Vite's /api proxy).
+        VITE_API_BASE_URL: http://localhost:8000
+    ports: ["8080:8080"]
+

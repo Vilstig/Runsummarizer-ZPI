@@ -1,0 +1,61 @@
+MAX_HR: 199
+
+# HR zone times: a gap between stream samples longer than this is time the watch was
+# stopped, and doesn't count
+# Explanation: time series data from watch is a stream of numbers 1, 2, 3, .. up unitl the end of activity.
+# When users pauses a watch, no data is stored and when he resumes it the next point will be calculated since the activity was started
+# Example when user takes a 20s break would be 4, 5, 6, 26, 27, 28. We dont want to calculate the corresponidng hr point from second 6 as 
+# 20s at a said heartrate, so this param says after how long a break the hr shouldnt be included when calculating time spent in hr zones
+HR_ZONE_MAX_SAMPLE_GAP_SECONDS: 10
+
+WARMUP_PACE_RATIO: 0.88
+
+# App package log level (DEBUG shows import step timings, etc.)
+LOG_LEVEL: DEBUG
+# Log line format: 'text' for local reading, 'json' for structured log shipping
+LOG_FORMAT: text
+
+MAX_REQUEST_BODY_BYTES: 1048576  # larger request bodies get 413
+
+RATE_LIMIT_ENABLED: true
+RATE_LIMIT_AUTH_MAX_TOKENS: 120
+RATE_LIMIT_AUTH_REFILL_RATE: 60
+RATE_LIMIT_AUTH_INTERVAL: 60
+RATE_LIMIT_PUBLIC_MAX_TOKENS: 30
+RATE_LIMIT_PUBLIC_REFILL_RATE: 30
+RATE_LIMIT_PUBLIC_INTERVAL: 60
+RATE_LIMIT_MAX_BUCKETS: 100000  # per store; least recently used dropped first
+RATE_LIMIT_EXCLUDED_PREFIXES:
+  - /api/health
+  - /api/webhooks
+  - /docs
+  - /redoc
+  - /openapi.json
+
+# Activity import queue
+IMPORT_LEASE_SECONDS: 300
+IMPORT_MAX_ATTEMPTS: 5
+# Attempts before an item whose payload fails to process is dead
+IMPORT_PROCESSING_MAX_ATTEMPTS: 2
+# Retry delay: base x 2^(attempts - 1), +-20%, at most max
+IMPORT_BACKOFF_BASE_SECONDS: 60
+IMPORT_BACKOFF_MAX_SECONDS: 3600
+# Import worker (python -m app.worker): wait when no item can be claimed
+IMPORT_POLL_INTERVAL_SECONDS: 2
+IMPORT_SWEEP_INTERVAL_SECONDS: 60
+# Dead and blocked items last changed longer ago than this are deleted
+IMPORT_PURGE_AFTER_DAYS: 30
+# POST /sync/{provider}: the window listed when 'after' isn't given
+IMPORT_SYNC_WINDOW_DAYS: 30
+# Gap between the sort_keys of a sync's items: about the time one item takes
+# at the sync ceiling (200 reads per 15 min, 2 per item)
+IMPORT_SYNC_SPACING_SECONDS: 10
+# How long a sync whose activities the provider sends by webhook reports 'syncing'
+# while none have arrived
+IMPORT_SYNC_REQUEST_TIMEOUT_SECONDS: 900
+# Token maintenance (python -m app.worker): how often the tokens of provider
+# connections nothing uses are refreshed, how long one user's refresh may take, and
+# how many users one pass refreshes per provider, at most
+TOKEN_MAINTENANCE_INTERVAL_SECONDS: 86400
+TOKEN_MAINTENANCE_REFRESH_TIMEOUT_SECONDS: 60
+TOKEN_MAINTENANCE_USERS_PER_PASS: 100

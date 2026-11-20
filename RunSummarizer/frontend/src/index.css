@@ -1,0 +1,248 @@
+@import "tailwindcss";
+
+/* Make `dark:` utilities follow the app's theme class (useTheme), not the OS setting */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * RunSummarizer Athletic Data Cockpit System (Garmin Connect & Strava)
+ * Strict 60-30-10 Monochromatic Palette with High WCAG Contrast:
+ *
+ * 60% Base Canvas:
+ *   Light: #F8FAFC (Slate 50) | Dark: #090B10 (Carbon Black)
+ * 30% Structural Surfaces & Hairlines:
+ *   Light: Card #FFFFFF, Border #CBD5E1 (Slate 300), Text #0F172A (19.8:1), Secondary Text #475569 (7.0:1)
+ *   Dark:  Card #111622, Border #232B3E, Text #F8FAFC (16.5:1), Secondary Text #94A3B8 (6.2:1)
+ * 10% High-Voltage Action Accent:
+ *   Primary: Strava Blaze Orange #FC5200 (Key CTAs, workout work intervals, heroic pace highlights)
+ *   Secondary (Data comparison only): Garmin Athletic Cyan #007CC3 (Light) / #00B2FF (Dark)
+ */
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+
+  --primary: #fc5200;
+  --primary-foreground: #ffffff;
+
+  --secondary: #007cc3;
+  --secondary-foreground: #ffffff;
+
+  --muted: #f1f5f9;
+  --muted-foreground: #475569;
+
+  --accent: #f8fafc;
+  --accent-foreground: #fc5200;
+
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+
+  --border: #cbd5e1;
+  --input: #cbd5e1;
+  --ring: #fc5200;
+
+  --radius: 0.5rem;
+
+  --chart-1: #fc5200;
+  --chart-2: #007cc3;
+  --chart-3: #475569;
+  --chart-4: #64748b;
+  --chart-5: #94a3b8;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0f172a;
+  --sidebar-primary: #fc5200;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f1f5f9;
+  --sidebar-accent-foreground: #fc5200;
+  --sidebar-border: #cbd5e1;
+  --sidebar-ring: #fc5200;
+
+  /* Theme-adaptive Brand Tokens in Light Mode */
+  --brand-base: #f8fafc;
+  --brand-elevated: #ffffff;
+  --brand-elevated-hover: #f1f5f9;
+  --brand-coral: #fc5200;
+  --brand-wine: #007cc3;
+  --brand-tint: #f1f5f9;
+  --brand-tint-hover: #e2e8f0;
+  --brand-tint-border: #cbd5e1;
+  --brand-light: #fc5200;
+  --brand-border: #cbd5e1;
+}
+
+.dark {
+  --background: #090b10;
+  --foreground: #f8fafc;
+
+  --card: #111622;
+  --card-foreground: #f8fafc;
+
+  --popover: #111622;
+  --popover-foreground: #f8fafc;
+
+  --primary: #fc5200;
+  --primary-foreground: #ffffff;
+
+  --secondary: #00b2ff;
+  --secondary-foreground: #090b10;
+
+  --muted: #171e2e;
+  --muted-foreground: #94a3b8;
+
+  --accent: #171e2e;
+  --accent-foreground: #fc5200;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --border: #232b3e;
+  --input: #232b3e;
+  --ring: #fc5200;
+
+  --chart-1: #fc5200;
+  --chart-2: #00b2ff;
+  --chart-3: #94a3b8;
+  --chart-4: #64748b;
+  --chart-5: #475569;
+
+  --sidebar: #0b0e14;
+  --sidebar-foreground: #f8fafc;
+  --sidebar-primary: #fc5200;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #171e2e;
+  --sidebar-accent-foreground: #fc5200;
+  --sidebar-border: #232b3e;
+  --sidebar-ring: #fc5200;
+
+  /* Theme-adaptive Brand Tokens in Dark Mode */
+  --brand-base: #090b10;
+  --brand-elevated: #111622;
+  --brand-elevated-hover: #171e2e;
+  --brand-coral: #fc5200;
+  --brand-wine: #00b2ff;
+  --brand-tint: #171e2e;
+  --brand-tint-hover: #1e2638;
+  --brand-tint-border: #232b3e;
+  --brand-light: #fc5200;
+  --brand-border: #232b3e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Solid Brand Tokens */
+  --color-brand-base: var(--brand-base);
+  --color-brand-elevated: var(--brand-elevated);
+  --color-brand-elevated-hover: var(--brand-elevated-hover);
+  --color-brand-coral: var(--brand-coral);
+  --color-brand-wine: var(--brand-wine);
+  --color-brand-tint: var(--brand-tint);
+  --color-brand-tint-hover: var(--brand-tint-hover);
+  --color-brand-tint-border: var(--brand-tint-border);
+  --color-brand-light: var(--brand-light);
+  --color-brand-border: var(--brand-border);
+
+  /* Sharp Radii */
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.625rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+
+  /* Emil Kowalski Easing Curves */
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+}
+
+/* Tabular digits utility */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Horizontally scrollable rows without a visible scrollbar */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes groundTrack {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 28;
+  }
+}
+
+.animate-ground-track {
+  animation: groundTrack 0.85s linear infinite;
+}
+
+.animate-ground-track-slow {
+  animation: groundTrack 1.2s linear infinite;
+}

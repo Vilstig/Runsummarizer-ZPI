@@ -1,0 +1,1808 @@
+{
+  "list": {
+    "status": 200,
+    "body": [
+      {
+        "activityId": "strava_42",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "from strava",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_42",
+          "name": "Run 42",
+          "startTimeLocal": "2026-05-01T08:00:00+02:00",
+          "distance": 4000.0,
+          "duration": 1200.0,
+          "speed": 3.33,
+          "avgHr": 150.0,
+          "maxHr": 170.0,
+          "elevationGain": 10.0,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 0.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 0.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 0.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [],
+          "segments": [
+            {
+              "startLapIndex": 1,
+              "endLapIndex": 4,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": null,
+              "role": "work",
+              "runTypeAuto": true
+            }
+          ],
+          "trainingTypeId": 0,
+          "trainingTypeName": "EASY",
+          "trainingTypeDisplay": "Easy",
+          "source": "strava",
+          "deviceName": null
+        }
+      },
+      {
+        "activityId": "strava_intervals",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "intervals",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_intervals",
+          "name": "Morning Run",
+          "startTimeLocal": "2026-03-05T07:00:00+00:00",
+          "distance": 4610.0,
+          "duration": 1464.0,
+          "speed": 3.15,
+          "avgHr": 139.3,
+          "maxHr": 150.0,
+          "elevationGain": null,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 120.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 300.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 90.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [],
+          "segments": [
+            {
+              "startLapIndex": 1,
+              "endLapIndex": 2,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": "Rozgrzewka",
+              "role": "preamble",
+              "runTypeAuto": true
+            },
+            {
+              "startLapIndex": 3,
+              "endLapIndex": 7,
+              "runTypeId": 1,
+              "runTypeDisplay": "Short Intervals",
+              "label": "Interwały",
+              "role": "work",
+              "runTypeAuto": true
+            },
+            {
+              "startLapIndex": 8,
+              "endLapIndex": 8,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": null,
+              "role": "break",
+              "runTypeAuto": true
+            },
+            {
+              "startLapIndex": 9,
+              "endLapIndex": 9,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": "Schłodzenie",
+              "role": "epilogue",
+              "runTypeAuto": true
+            }
+          ],
+          "trainingTypeId": 1,
+          "trainingTypeName": "SHORT_INTERVALS",
+          "trainingTypeDisplay": "Short Intervals",
+          "source": "strava",
+          "deviceName": null
+        }
+      },
+      {
+        "activityId": "strava_easy",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "5 km easy",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_easy",
+          "name": "Morning Run",
+          "startTimeLocal": "2026-02-05T07:00:00+00:00",
+          "distance": 2000.0,
+          "duration": 514.0,
+          "speed": 3.89,
+          "avgHr": 139.3,
+          "maxHr": 150.0,
+          "elevationGain": null,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 120.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 300.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 90.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [],
+          "segments": [
+            {
+              "startLapIndex": 1,
+              "endLapIndex": 2,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": null,
+              "role": "work",
+              "runTypeAuto": true
+            }
+          ],
+          "trainingTypeId": 0,
+          "trainingTypeName": "EASY",
+          "trainingTypeDisplay": "Easy",
+          "source": "strava",
+          "deviceName": null
+        }
+      },
+      {
+        "activityId": "strava_no_laps",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_no_laps",
+          "name": "Morning Run",
+          "startTimeLocal": "2026-01-05T07:00:00+00:00",
+          "distance": 0.0,
+          "duration": 0.0,
+          "speed": 0.0,
+          "avgHr": 139.3,
+          "maxHr": 150.0,
+          "elevationGain": null,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 120.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 300.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 90.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [],
+          "segments": [],
+          "trainingTypeId": 0,
+          "trainingTypeName": "EASY",
+          "trainingTypeDisplay": "Easy",
+          "source": "strava",
+          "deviceName": null
+        }
+      }
+    ]
+  },
+  "list_with_laps": {
+    "status": 200,
+    "body": [
+      {
+        "activityId": "strava_42",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "from strava",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_42",
+          "name": "Run 42",
+          "startTimeLocal": "2026-05-01T08:00:00+02:00",
+          "distance": 4000.0,
+          "duration": 1200.0,
+          "speed": 3.33,
+          "avgHr": 150.0,
+          "maxHr": 170.0,
+          "elevationGain": 10.0,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 0.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 0.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 0.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [
+            {
+              "lapIndex": 1,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 300.0,
+              "speed": 3.33,
+              "avgHr": 150.0,
+              "maxHr": 165.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 2,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 300.0,
+              "speed": 3.33,
+              "avgHr": 150.0,
+              "maxHr": 165.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 3,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 300.0,
+              "speed": 3.33,
+              "avgHr": 150.0,
+              "maxHr": 165.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 4,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 300.0,
+              "speed": 3.33,
+              "avgHr": 150.0,
+              "maxHr": 165.0,
+              "elevationGain": 3.0,
+              "version": 0
+            }
+          ],
+          "segments": [
+            {
+              "startLapIndex": 1,
+              "endLapIndex": 4,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": null,
+              "role": "work",
+              "runTypeAuto": true
+            }
+          ],
+          "trainingTypeId": 0,
+          "trainingTypeName": "EASY",
+          "trainingTypeDisplay": "Easy",
+          "source": "strava",
+          "deviceName": null
+        }
+      },
+      {
+        "activityId": "strava_intervals",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "intervals",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_intervals",
+          "name": "Morning Run",
+          "startTimeLocal": "2026-03-05T07:00:00+00:00",
+          "distance": 4610.0,
+          "duration": 1464.0,
+          "speed": 3.15,
+          "avgHr": 139.3,
+          "maxHr": 150.0,
+          "elevationGain": null,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 120.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 300.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 90.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [
+            {
+              "lapIndex": 1,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 330.0,
+              "speed": 3.03,
+              "avgHr": 135.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 2,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 320.0,
+              "speed": 3.12,
+              "avgHr": 138.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 3,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 400.0,
+              "duration": 80.0,
+              "speed": 5.0,
+              "avgHr": 172.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 4,
+              "typeId": 1,
+              "typeName": "RECOVERY",
+              "typeDisplay": "Recovery",
+              "distance": 200.0,
+              "duration": 90.0,
+              "speed": 2.22,
+              "avgHr": 140.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 5,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 400.0,
+              "duration": 79.0,
+              "speed": 5.06,
+              "avgHr": 174.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 6,
+              "typeId": 1,
+              "typeName": "RECOVERY",
+              "typeDisplay": "Recovery",
+              "distance": 200.0,
+              "duration": 92.0,
+              "speed": 2.17,
+              "avgHr": 142.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 7,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 400.0,
+              "duration": 78.0,
+              "speed": 5.13,
+              "avgHr": 176.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 8,
+              "typeId": 2,
+              "typeName": "REST",
+              "typeDisplay": "Rest",
+              "distance": 10.0,
+              "duration": 60.0,
+              "speed": 0.17,
+              "avgHr": 130.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 9,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 335.0,
+              "speed": 2.99,
+              "avgHr": 136.0,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            }
+          ],
+          "segments": [
+            {
+              "startLapIndex": 1,
+              "endLapIndex": 2,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": "Rozgrzewka",
+              "role": "preamble",
+              "runTypeAuto": true
+            },
+            {
+              "startLapIndex": 3,
+              "endLapIndex": 7,
+              "runTypeId": 1,
+              "runTypeDisplay": "Short Intervals",
+              "label": "Interwały",
+              "role": "work",
+              "runTypeAuto": true
+            },
+            {
+              "startLapIndex": 8,
+              "endLapIndex": 8,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": null,
+              "role": "break",
+              "runTypeAuto": true
+            },
+            {
+              "startLapIndex": 9,
+              "endLapIndex": 9,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": "Schłodzenie",
+              "role": "epilogue",
+              "runTypeAuto": true
+            }
+          ],
+          "trainingTypeId": 1,
+          "trainingTypeName": "SHORT_INTERVALS",
+          "trainingTypeDisplay": "Short Intervals",
+          "source": "strava",
+          "deviceName": null
+        }
+      },
+      {
+        "activityId": "strava_easy",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "5 km easy",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_easy",
+          "name": "Morning Run",
+          "startTimeLocal": "2026-02-05T07:00:00+00:00",
+          "distance": 2000.0,
+          "duration": 514.0,
+          "speed": 3.89,
+          "avgHr": 139.3,
+          "maxHr": 150.0,
+          "elevationGain": null,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 120.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 300.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 90.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [
+            {
+              "lapIndex": 1,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 257.0,
+              "speed": 3.89,
+              "avgHr": 139.3,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            },
+            {
+              "lapIndex": 2,
+              "typeId": 0,
+              "typeName": "RUN",
+              "typeDisplay": "Run",
+              "distance": 1000.0,
+              "duration": 257.0,
+              "speed": 3.89,
+              "avgHr": 139.3,
+              "maxHr": 150.0,
+              "elevationGain": 3.0,
+              "version": 0
+            }
+          ],
+          "segments": [
+            {
+              "startLapIndex": 1,
+              "endLapIndex": 2,
+              "runTypeId": 0,
+              "runTypeDisplay": "Easy",
+              "label": null,
+              "role": "work",
+              "runTypeAuto": true
+            }
+          ],
+          "trainingTypeId": 0,
+          "trainingTypeName": "EASY",
+          "trainingTypeDisplay": "Easy",
+          "source": "strava",
+          "deviceName": null
+        }
+      },
+      {
+        "activityId": "strava_no_laps",
+        "source": "strava",
+        "userId": "user-9001",
+        "summary": "",
+        "summaryTextEdited": false,
+        "segmentsEdited": false,
+        "processed_data": {
+          "activityId": "strava_no_laps",
+          "name": "Morning Run",
+          "startTimeLocal": "2026-01-05T07:00:00+00:00",
+          "distance": 0.0,
+          "duration": 0.0,
+          "speed": 0.0,
+          "avgHr": 139.3,
+          "maxHr": 150.0,
+          "elevationGain": null,
+          "heartRateZones": [
+            {
+              "zone": 1,
+              "minBpm": 0,
+              "maxBpm": 119,
+              "time": 120.0
+            },
+            {
+              "zone": 2,
+              "minBpm": 120,
+              "maxBpm": 139,
+              "time": 300.0
+            },
+            {
+              "zone": 3,
+              "minBpm": 140,
+              "maxBpm": 159,
+              "time": 90.0
+            },
+            {
+              "zone": 4,
+              "minBpm": 160,
+              "maxBpm": 179,
+              "time": 0.0
+            },
+            {
+              "zone": 5,
+              "minBpm": 180,
+              "maxBpm": null,
+              "time": 0.0
+            }
+          ],
+          "laps": [],
+          "segments": [],
+          "trainingTypeId": 0,
+          "trainingTypeName": "EASY",
+          "trainingTypeDisplay": "Easy",
+          "source": "strava",
+          "deviceName": null
+        }
+      }
+    ]
+  },
+  "search": {
+    "status": 200,
+    "body": {
+      "items": [
+        {
+          "activityId": "strava_intervals",
+          "source": "strava",
+          "userId": "user-9001",
+          "summary": "intervals",
+          "summaryTextEdited": false,
+          "segmentsEdited": false,
+          "processed_data": {
+            "activityId": "strava_intervals",
+            "name": "Morning Run",
+            "startTimeLocal": "2026-03-05T07:00:00+00:00",
+            "distance": 4610.0,
+            "duration": 1464.0,
+            "speed": 3.15,
+            "avgHr": 139.3,
+            "maxHr": 150.0,
+            "elevationGain": null,
+            "heartRateZones": [
+              {
+                "zone": 1,
+                "minBpm": 0,
+                "maxBpm": 119,
+                "time": 120.0
+              },
+              {
+                "zone": 2,
+                "minBpm": 120,
+                "maxBpm": 139,
+                "time": 300.0
+              },
+              {
+                "zone": 3,
+                "minBpm": 140,
+                "maxBpm": 159,
+                "time": 90.0
+              },
+              {
+                "zone": 4,
+                "minBpm": 160,
+                "maxBpm": 179,
+                "time": 0.0
+              },
+              {
+                "zone": 5,
+                "minBpm": 180,
+                "maxBpm": null,
+                "time": 0.0
+              }
+            ],
+            "laps": [],
+            "segments": [
+              {
+                "startLapIndex": 1,
+                "endLapIndex": 2,
+                "runTypeId": 0,
+                "runTypeDisplay": "Easy",
+                "label": "Rozgrzewka",
+                "role": "preamble",
+                "runTypeAuto": true
+              },
+              {
+                "startLapIndex": 3,
+                "endLapIndex": 7,
+                "runTypeId": 1,
+                "runTypeDisplay": "Short Intervals",
+                "label": "Interwały",
+                "role": "work",
+                "runTypeAuto": true
+              },
+              {
+                "startLapIndex": 8,
+                "endLapIndex": 8,
+                "runTypeId": 0,
+                "runTypeDisplay": "Easy",
+                "label": null,
+                "role": "break",
+                "runTypeAuto": true
+              },
+              {
+                "startLapIndex": 9,
+                "endLapIndex": 9,
+                "runTypeId": 0,
+                "runTypeDisplay": "Easy",
+                "label": "Schłodzenie",
+                "role": "epilogue",
+                "runTypeAuto": true
+              }
+            ],
+            "trainingTypeId": 1,
+            "trainingTypeName": "SHORT_INTERVALS",
+            "trainingTypeDisplay": "Short Intervals",
+            "source": "strava",
+            "deviceName": null
+          }
+        },
+        {
+          "activityId": "strava_42",
+          "source": "strava",
+          "userId": "user-9001",
+          "summary": "from strava",
+          "summaryTextEdited": false,
+          "segmentsEdited": false,
+          "processed_data": {
+            "activityId": "strava_42",
+            "name": "Run 42",
+            "startTimeLocal": "2026-05-01T08:00:00+02:00",
+            "distance": 4000.0,
+            "duration": 1200.0,
+            "speed": 3.33,
+            "avgHr": 150.0,
+            "maxHr": 170.0,
+            "elevationGain": 10.0,
+            "heartRateZones": [
+              {
+                "zone": 1,
+                "minBpm": 0,
+                "maxBpm": 119,
+                "time": 0.0
+              },
+              {
+                "zone": 2,
+                "minBpm": 120,
+                "maxBpm": 139,
+                "time": 0.0
+              },
+              {
+                "zone": 3,
+                "minBpm": 140,
+                "maxBpm": 159,
+                "time": 0.0
+              },
+              {
+                "zone": 4,
+                "minBpm": 160,
+                "maxBpm": 179,
+                "time": 0.0
+              },
+              {
+                "zone": 5,
+                "minBpm": 180,
+                "maxBpm": null,
+                "time": 0.0
+              }
+            ],
+            "laps": [],
+            "segments": [
+              {
+                "startLapIndex": 1,
+                "endLapIndex": 4,
+                "runTypeId": 0,
+                "runTypeDisplay": "Easy",
+                "label": null,
+                "role": "work",
+                "runTypeAuto": true
+              }
+            ],
+            "trainingTypeId": 0,
+            "trainingTypeName": "EASY",
+            "trainingTypeDisplay": "Easy",
+            "source": "strava",
+            "deviceName": null
+          }
+        }
+      ],
+      "total": 3
+    }
+  },
+  "search_segments": {
+    "status": 200,
+    "body": {
+      "items": [
+        {
+          "activityId": "strava_intervals",
+          "source": "strava",
+          "userId": "user-9001",
+          "summary": "intervals",
+          "summaryTextEdited": false,
+          "segmentsEdited": false,
+          "processed_data": {
+            "activityId": "strava_intervals",
+            "name": "Morning Run",
+            "startTimeLocal": "2026-03-05T07:00:00+00:00",
+            "distance": 4610.0,
+            "duration": 1464.0,
+            "speed": 3.15,
+            "avgHr": 139.3,
+            "maxHr": 150.0,
+            "elevationGain": null,
+            "heartRateZones": [
+              {
+                "zone": 1,
+                "minBpm": 0,
+                "maxBpm": 119,
+                "time": 120.0
+              },
+              {
+                "zone": 2,
+                "minBpm": 120,
+                "maxBpm": 139,
+                "time": 300.0
+              },
+              {
+                "zone": 3,
+                "minBpm": 140,
+                "maxBpm": 159,
+                "time": 90.0
+              },
+              {
+                "zone": 4,
+                "minBpm": 160,
+                "maxBpm": 179,
+                "time": 0.0
+              },
+              {
+                "zone": 5,
+                "minBpm": 180,
+                "maxBpm": null,
+                "time": 0.0
+              }
+            ],
+            "laps": [],
+            "segments": [
+              {
+                "startLapIndex": 1,
+                "endLapIndex": 2,
+                "runTypeId": 0,
+                "runTypeDisplay": "Easy",
+                "label": "Rozgrzewka",
+                "role": "preamble",
+                "runTypeAuto": true
+              },
+              {
+                "startLapIndex": 3,
+                "endLapIndex": 7,
+                "runTypeId": 1,
+                "runTypeDisplay": "Short Intervals",
+                "label": "Interwały",
+                "role": "work",
+                "runTypeAuto": true
+              },
+              {
+                "startLapIndex": 8,
+                "endLapIndex": 8,
+                "runTypeId": 0,
+                "runTypeDisplay": "Easy",
+                "label": null,
+                "role": "break",
+                "runTypeAuto": true
+              },
+              {
+                "startLapIndex": 9,
+                "endLapIndex": 9,
+                "runTypeId": 0,
+                "runTypeDisplay": "Easy",
+                "label": "Schłodzenie",
+                "role": "epilogue",
+                "runTypeAuto": true
+              }
+            ],
+            "trainingTypeId": 1,
+            "trainingTypeName": "SHORT_INTERVALS",
+            "trainingTypeDisplay": "Short Intervals",
+            "source": "strava",
+            "deviceName": null
+          }
+        }
+      ],
+      "total": 1
+    }
+  },
+  "get_intervals": {
+    "status": 200,
+    "body": {
+      "activityId": "strava_intervals",
+      "source": "strava",
+      "userId": "user-9001",
+      "summary": "intervals",
+      "summaryTextEdited": false,
+      "segmentsEdited": false,
+      "processed_data": {
+        "activityId": "strava_intervals",
+        "name": "Morning Run",
+        "startTimeLocal": "2026-03-05T07:00:00+00:00",
+        "distance": 4610.0,
+        "duration": 1464.0,
+        "speed": 3.15,
+        "avgHr": 139.3,
+        "maxHr": 150.0,
+        "elevationGain": null,
+        "heartRateZones": [
+          {
+            "zone": 1,
+            "minBpm": 0,
+            "maxBpm": 119,
+            "time": 120.0
+          },
+          {
+            "zone": 2,
+            "minBpm": 120,
+            "maxBpm": 139,
+            "time": 300.0
+          },
+          {
+            "zone": 3,
+            "minBpm": 140,
+            "maxBpm": 159,
+            "time": 90.0
+          },
+          {
+            "zone": 4,
+            "minBpm": 160,
+            "maxBpm": 179,
+            "time": 0.0
+          },
+          {
+            "zone": 5,
+            "minBpm": 180,
+            "maxBpm": null,
+            "time": 0.0
+          }
+        ],
+        "laps": [
+          {
+            "lapIndex": 1,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 330.0,
+            "speed": 3.03,
+            "avgHr": 135.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 2,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 320.0,
+            "speed": 3.12,
+            "avgHr": 138.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 3,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 400.0,
+            "duration": 80.0,
+            "speed": 5.0,
+            "avgHr": 172.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 4,
+            "typeId": 1,
+            "typeName": "RECOVERY",
+            "typeDisplay": "Recovery",
+            "distance": 200.0,
+            "duration": 90.0,
+            "speed": 2.22,
+            "avgHr": 140.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 5,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 400.0,
+            "duration": 79.0,
+            "speed": 5.06,
+            "avgHr": 174.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 6,
+            "typeId": 1,
+            "typeName": "RECOVERY",
+            "typeDisplay": "Recovery",
+            "distance": 200.0,
+            "duration": 92.0,
+            "speed": 2.17,
+            "avgHr": 142.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 7,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 400.0,
+            "duration": 78.0,
+            "speed": 5.13,
+            "avgHr": 176.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 8,
+            "typeId": 2,
+            "typeName": "REST",
+            "typeDisplay": "Rest",
+            "distance": 10.0,
+            "duration": 60.0,
+            "speed": 0.17,
+            "avgHr": 130.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 9,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 335.0,
+            "speed": 2.99,
+            "avgHr": 136.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          }
+        ],
+        "segments": [
+          {
+            "startLapIndex": 1,
+            "endLapIndex": 2,
+            "runTypeId": 0,
+            "runTypeDisplay": "Easy",
+            "label": "Rozgrzewka",
+            "role": "preamble",
+            "runTypeAuto": true
+          },
+          {
+            "startLapIndex": 3,
+            "endLapIndex": 7,
+            "runTypeId": 1,
+            "runTypeDisplay": "Short Intervals",
+            "label": "Interwały",
+            "role": "work",
+            "runTypeAuto": true
+          },
+          {
+            "startLapIndex": 8,
+            "endLapIndex": 8,
+            "runTypeId": 0,
+            "runTypeDisplay": "Easy",
+            "label": null,
+            "role": "break",
+            "runTypeAuto": true
+          },
+          {
+            "startLapIndex": 9,
+            "endLapIndex": 9,
+            "runTypeId": 0,
+            "runTypeDisplay": "Easy",
+            "label": "Schłodzenie",
+            "role": "epilogue",
+            "runTypeAuto": true
+          }
+        ],
+        "trainingTypeId": 1,
+        "trainingTypeName": "SHORT_INTERVALS",
+        "trainingTypeDisplay": "Short Intervals",
+        "source": "strava",
+        "deviceName": null
+      }
+    }
+  },
+  "get_strava_run": {
+    "status": 200,
+    "body": {
+      "activityId": "strava_42",
+      "source": "strava",
+      "userId": "user-9001",
+      "summary": "from strava",
+      "summaryTextEdited": false,
+      "segmentsEdited": false,
+      "processed_data": {
+        "activityId": "strava_42",
+        "name": "Run 42",
+        "startTimeLocal": "2026-05-01T08:00:00+02:00",
+        "distance": 4000.0,
+        "duration": 1200.0,
+        "speed": 3.33,
+        "avgHr": 150.0,
+        "maxHr": 170.0,
+        "elevationGain": 10.0,
+        "heartRateZones": [
+          {
+            "zone": 1,
+            "minBpm": 0,
+            "maxBpm": 119,
+            "time": 0.0
+          },
+          {
+            "zone": 2,
+            "minBpm": 120,
+            "maxBpm": 139,
+            "time": 0.0
+          },
+          {
+            "zone": 3,
+            "minBpm": 140,
+            "maxBpm": 159,
+            "time": 0.0
+          },
+          {
+            "zone": 4,
+            "minBpm": 160,
+            "maxBpm": 179,
+            "time": 0.0
+          },
+          {
+            "zone": 5,
+            "minBpm": 180,
+            "maxBpm": null,
+            "time": 0.0
+          }
+        ],
+        "laps": [
+          {
+            "lapIndex": 1,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 300.0,
+            "speed": 3.33,
+            "avgHr": 150.0,
+            "maxHr": 165.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 2,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 300.0,
+            "speed": 3.33,
+            "avgHr": 150.0,
+            "maxHr": 165.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 3,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 300.0,
+            "speed": 3.33,
+            "avgHr": 150.0,
+            "maxHr": 165.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 4,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 300.0,
+            "speed": 3.33,
+            "avgHr": 150.0,
+            "maxHr": 165.0,
+            "elevationGain": 3.0,
+            "version": 0
+          }
+        ],
+        "segments": [
+          {
+            "startLapIndex": 1,
+            "endLapIndex": 4,
+            "runTypeId": 0,
+            "runTypeDisplay": "Easy",
+            "label": null,
+            "role": "work",
+            "runTypeAuto": true
+          }
+        ],
+        "trainingTypeId": 0,
+        "trainingTypeName": "EASY",
+        "trainingTypeDisplay": "Easy",
+        "source": "strava",
+        "deviceName": null
+      }
+    }
+  },
+  "get_no_laps": {
+    "status": 200,
+    "body": {
+      "activityId": "strava_no_laps",
+      "source": "strava",
+      "userId": "user-9001",
+      "summary": "",
+      "summaryTextEdited": false,
+      "segmentsEdited": false,
+      "processed_data": {
+        "activityId": "strava_no_laps",
+        "name": "Morning Run",
+        "startTimeLocal": "2026-01-05T07:00:00+00:00",
+        "distance": 0.0,
+        "duration": 0.0,
+        "speed": 0.0,
+        "avgHr": 139.3,
+        "maxHr": 150.0,
+        "elevationGain": null,
+        "heartRateZones": [
+          {
+            "zone": 1,
+            "minBpm": 0,
+            "maxBpm": 119,
+            "time": 120.0
+          },
+          {
+            "zone": 2,
+            "minBpm": 120,
+            "maxBpm": 139,
+            "time": 300.0
+          },
+          {
+            "zone": 3,
+            "minBpm": 140,
+            "maxBpm": 159,
+            "time": 90.0
+          },
+          {
+            "zone": 4,
+            "minBpm": 160,
+            "maxBpm": 179,
+            "time": 0.0
+          },
+          {
+            "zone": 5,
+            "minBpm": 180,
+            "maxBpm": null,
+            "time": 0.0
+          }
+        ],
+        "laps": [],
+        "segments": [],
+        "trainingTypeId": 0,
+        "trainingTypeName": "EASY",
+        "trainingTypeDisplay": "Easy",
+        "source": "strava",
+        "deviceName": null
+      }
+    }
+  },
+  "laps_intervals": {
+    "status": 200,
+    "body": [
+      {
+        "lapIndex": 1,
+        "typeId": 0,
+        "typeName": "RUN",
+        "typeDisplay": "Run",
+        "distance": 1000.0,
+        "duration": 330.0,
+        "speed": 3.03,
+        "avgHr": 135.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 2,
+        "typeId": 0,
+        "typeName": "RUN",
+        "typeDisplay": "Run",
+        "distance": 1000.0,
+        "duration": 320.0,
+        "speed": 3.12,
+        "avgHr": 138.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 3,
+        "typeId": 0,
+        "typeName": "RUN",
+        "typeDisplay": "Run",
+        "distance": 400.0,
+        "duration": 80.0,
+        "speed": 5.0,
+        "avgHr": 172.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 4,
+        "typeId": 1,
+        "typeName": "RECOVERY",
+        "typeDisplay": "Recovery",
+        "distance": 200.0,
+        "duration": 90.0,
+        "speed": 2.22,
+        "avgHr": 140.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 5,
+        "typeId": 0,
+        "typeName": "RUN",
+        "typeDisplay": "Run",
+        "distance": 400.0,
+        "duration": 79.0,
+        "speed": 5.06,
+        "avgHr": 174.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 6,
+        "typeId": 1,
+        "typeName": "RECOVERY",
+        "typeDisplay": "Recovery",
+        "distance": 200.0,
+        "duration": 92.0,
+        "speed": 2.17,
+        "avgHr": 142.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 7,
+        "typeId": 0,
+        "typeName": "RUN",
+        "typeDisplay": "Run",
+        "distance": 400.0,
+        "duration": 78.0,
+        "speed": 5.13,
+        "avgHr": 176.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 8,
+        "typeId": 2,
+        "typeName": "REST",
+        "typeDisplay": "Rest",
+        "distance": 10.0,
+        "duration": 60.0,
+        "speed": 0.17,
+        "avgHr": 130.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      },
+      {
+        "lapIndex": 9,
+        "typeId": 0,
+        "typeName": "RUN",
+        "typeDisplay": "Run",
+        "distance": 1000.0,
+        "duration": 335.0,
+        "speed": 2.99,
+        "avgHr": 136.0,
+        "maxHr": 150.0,
+        "elevationGain": 3.0,
+        "version": 0
+      }
+    ]
+  },
+  "patch_intervals": {
+    "status": 200,
+    "body": {
+      "activityId": "strava_intervals",
+      "source": "strava",
+      "userId": "user-9001",
+      "summary": "2.40 km\nŚrednie tempo: 5:04 /km\nŚrednie tętno: 140\n\nPrzerwa: 1:30\n\nInterwały:\n2x400m\nŚredni czas interwału: 1:18.5\nŚredni czas przerwy: 1:32\nNajszybszy odcinek: 1:18.0\nNajwolniejszy odcinek: 1:19.0\n\nSchłodzenie:\n1.00 km\nŚrednie tempo: 5:35 /km\nŚrednie tętno: 136",
+      "summaryTextEdited": false,
+      "segmentsEdited": false,
+      "processed_data": {
+        "activityId": "strava_intervals",
+        "name": "Morning Run",
+        "startTimeLocal": "2026-03-05T07:00:00+00:00",
+        "distance": 4610.0,
+        "duration": 1464.0,
+        "speed": 3.15,
+        "avgHr": 139.3,
+        "maxHr": 150.0,
+        "elevationGain": null,
+        "heartRateZones": [
+          {
+            "zone": 1,
+            "minBpm": 0,
+            "maxBpm": 119,
+            "time": 120.0
+          },
+          {
+            "zone": 2,
+            "minBpm": 120,
+            "maxBpm": 139,
+            "time": 300.0
+          },
+          {
+            "zone": 3,
+            "minBpm": 140,
+            "maxBpm": 159,
+            "time": 90.0
+          },
+          {
+            "zone": 4,
+            "minBpm": 160,
+            "maxBpm": 179,
+            "time": 0.0
+          },
+          {
+            "zone": 5,
+            "minBpm": 180,
+            "maxBpm": null,
+            "time": 0.0
+          }
+        ],
+        "laps": [
+          {
+            "lapIndex": 1,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 330.0,
+            "speed": 3.03,
+            "avgHr": 135.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 2,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 320.0,
+            "speed": 3.12,
+            "avgHr": 138.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 3,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 400.0,
+            "duration": 80.0,
+            "speed": 5.0,
+            "avgHr": 172.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 4,
+            "typeId": 2,
+            "typeName": "REST",
+            "typeDisplay": "Rest",
+            "distance": 200.0,
+            "duration": 90.0,
+            "speed": 2.22,
+            "avgHr": 140.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 5,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 400.0,
+            "duration": 79.0,
+            "speed": 5.06,
+            "avgHr": 174.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 6,
+            "typeId": 1,
+            "typeName": "RECOVERY",
+            "typeDisplay": "Recovery",
+            "distance": 200.0,
+            "duration": 92.0,
+            "speed": 2.17,
+            "avgHr": 142.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 7,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 400.0,
+            "duration": 78.0,
+            "speed": 5.13,
+            "avgHr": 176.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 8,
+            "typeId": 1,
+            "typeName": "RECOVERY",
+            "typeDisplay": "Recovery",
+            "distance": 10.0,
+            "duration": 60.0,
+            "speed": 0.17,
+            "avgHr": 130.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          },
+          {
+            "lapIndex": 9,
+            "typeId": 0,
+            "typeName": "RUN",
+            "typeDisplay": "Run",
+            "distance": 1000.0,
+            "duration": 335.0,
+            "speed": 2.99,
+            "avgHr": 136.0,
+            "maxHr": 150.0,
+            "elevationGain": 3.0,
+            "version": 0
+          }
+        ],
+        "segments": [
+          {
+            "startLapIndex": 1,
+            "endLapIndex": 3,
+            "runTypeId": 0,
+            "runTypeDisplay": "Easy",
+            "label": null,
+            "role": "work",
+            "runTypeAuto": true
+          },
+          {
+            "startLapIndex": 4,
+            "endLapIndex": 4,
+            "runTypeId": 0,
+            "runTypeDisplay": "Easy",
+            "label": null,
+            "role": "break",
+            "runTypeAuto": true
+          },
+          {
+            "startLapIndex": 5,
+            "endLapIndex": 8,
+            "runTypeId": 1,
+            "runTypeDisplay": "Short Intervals",
+            "label": "Interwały",
+            "role": "work",
+            "runTypeAuto": true
+          },
+          {
+            "startLapIndex": 9,
+            "endLapIndex": 9,
+            "runTypeId": 0,
+            "runTypeDisplay": "Easy",
+            "label": "Schłodzenie",
+            "role": "epilogue",
+            "runTypeAuto": true
+          }
+        ],
+        "trainingTypeId": 1,
+        "trainingTypeName": "SHORT_INTERVALS",
+        "trainingTypeDisplay": "Short Intervals",
+        "source": "strava",
+        "deviceName": null
+      }
+    }
+  },
+  "patch_unknown_lap": {
+    "status": 400,
+    "body": {
+      "detail": "Unknown lapIndex: 99",
+      "code": "unknown_lap"
+    }
+  }
+}
